@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "gsagendamentos": {
+      "hosting": {
+        "GsAgendamentos": [
+          "gsagendamentos"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "gsagendamentos"
+  }
+}

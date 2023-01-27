@@ -97,8 +97,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "GsAgendamentos:build:production",
+            "firebaseProject": "gsagendamentos",
+            "firebaseHostingSite": "gsagendamentos"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "44135be5-6d04-499d-bdaf-b626642de797"
   }
 }
